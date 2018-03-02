@@ -20,8 +20,38 @@
     <!-- Wrapper -->
     <div id="wrapper">
 
+         <!-- Topbar -->
+        <div id="topbar" class="topbar-transparent topbar-fullwidth dark visible-md visible-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <ul class="top-menu">
+                            <li><a href="#">Phone: +1 (234) 567-890</a></li>
+                            <li><a href="#">Email: contact@inspiro-media.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 hidden-xs">
+                        <div class="social-icons social-icons-colored-hover">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="social-pinterest"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+                                <li class="social-linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="social-dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li class="social-youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                                <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: Topbar -->
+
         <!-- Header -->
-        <header id="header" class="header-transparent dark">
+        <header id="header" class="header-fullwidth header-transparent dark">
             <div id="header-wrap">
                 <div class="container">
                     <!--Logo-->
@@ -31,7 +61,7 @@
                         </a>
                     </div>
                     <!--End: Logo-->
-
+                    
                     <!--Top Search Form-->
                     <div id="top-search">
                         <form action="search-results-page.html" method="get">
@@ -43,6 +73,14 @@
                     <!--Header Extras-->
                     <div class="header-extras">
                         <ul>
+                            <li>
+                                <!--slide menu trigger-->
+                                <a href="#" class="toggle-item" data-target="#mainMenu" data-class="items-visible">
+                                    <i class="fa fa-bars"></i>
+                                    <i class="fa fa-close"></i>
+                                </a>
+                                <!--end: slide menu trigger-->
+                            </li>
                             <li>
                                 <!--top search-->
                                 <a id="top-search-trigger" href="#" class="toggle-item">
@@ -61,15 +99,6 @@
                                 </div>
                                 <!--end: shopping cart-->
                             </li>
-                            <li>
-                                <div class="topbar-dropdown">
-                                    <a class="title"><i class="fa fa-globe"></i></a>
-                                    <div class="dropdown-list">
-                                        <a class="list-entry" href="#">French</a>
-                                        <a class="list-entry" href="#">Spanish</a>
-                                    </div>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                     <!--end: Header Extras-->
@@ -81,7 +110,7 @@
                     <!--end: Navigation Resposnive Trigger-->
 
                     <!--Navigation-->
-                    <div id="mainMenu" class="light">
+                    <div id="mainMenu" class="menu-slide ligjt">
                         <div class="container">
                             <nav>
                                 <ul>
@@ -191,13 +220,13 @@
                                             </li>
                                             <li class="dropdown-submenu"><a href="#"><i class="fa fa-star"></i>Page title</a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="page-title-classic.html">Classic version</a></li>
+                                                                                                        <li><a href="page-title-classic.html">Classic version</a></li>
                                                     <li><a href="page-title.html">Image background</a> </li>
                                                     <li><a href="page-title-video.html">Video background</a> </li>
                                                     <li><a href="page-title-pattern.html">Pattern background</a> </li>
                                                     <li><a href="page-title-background-color.html">Colored background</a> </li>
                                                     <li><a href="page-title-default-header.html">Default header</a></li>
-                                                    <li><a href="page-title-animated.html">Animated</a></li>
+                                                    <li><a href="page-title-animated.html">Animated</a></li> 
                                                     <li><a href="page-title-center.html">Center Aligned</a></li>
                                                     <li><a href="page-title-right.html">Right Aligned</a></li>
                                                     <li><a href="page-title.html">Left Aligned</a></li>
@@ -236,9 +265,9 @@
                                             <li><a href="widgets.html"><i class="fa fa-th"></i>Widgets </a></li>
                                             <li class="dropdown-submenu"><a href="#"><i class="fa fa-th-list"></i>Sidebars</a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="sidebar.html">Left aligned</a> </li>
+                                                                                                        <li><a href="sidebar.html">Left aligned</a> </li>
                                                     <li><a href="sidebar-right.html">Right aligned</a> </li>
-                                                    <li><a href="sidebar-both.html">Both Sidebars</a> </li>
+                                                    <li><a href="sidebar-both.html">Both Sidebars</a> </li>                                                    
                                                     <li><a href="sidebar-modern.html">Modern</a> </li>
                                                     <li><a href="sidebar-modern-right.html">Modern Right</a> </li>
                                                     <li><a href="sidebar-modern-both.html">Modern Both Sidebars</a> </li>
@@ -427,14 +456,13 @@
                                                             <li>
                                                                 <a href="shortcode-testimonial.html"> <i class="fa fa-question-circle"></i>Testimonials<span class="label label-danger">NEW</span></a>
                                                             </li>
-
+                                                            
                                                             <li>
                                                                 <a href="shortcode-toggles.html"> <i class="fa fa-toggle-on"></i>Toggles</a>
                                                             </li>
                                                             <li>
                                                                 <a href="shortcode-typography.html"> <i class="fa fa-font"></i>Typography</a>
-                                                            </li>
-                                                            <li>
+                                                            </li><li>
                                                                 <a href="shortcode-text-rotator.html"> <i class="fa fa-random"></i>Text Rotator<span class="label label-default">NEW</span></a>
                                                             </li>
                                                         </ul>
@@ -472,25 +500,25 @@
                                             </li>
                                             <li class="dropdown-submenu"><span class="dropdown-menu-title-only">Gallery</span>
                                                 <ul class="dropdown-menu">
-                                                    <li> <a href="page-gallery-2.html">Two Columns</a> </li>
-                                                    <li> <a href="page-gallery-3.html">Three Columns</a> </li>
-                                                    <li> <a href="page-gallery-4.html">Four Columns</a> </li>
-                                                    <li> <a href="page-gallery-5.html">Five Columns</a> </li>
-                                                    <li> <a href="page-gallery-6.html">Six Columns</a> </li>
-                                                    <li> <a href="page-gallery-sidebar.html">Sidebar version</a> </li>
-                                                    <li> <a href="page-gallery-wide.html">Wide version</a> </li>
-                                                    <li> <a href="page-gallery-load-more.html">Load more</a> </li>
-                                                    <li> <a href="page-gallery-infinite-scroll.html">Infinity Scroll</a> </li>
-                                                    <!--<li> <a href="page-gallery-gallery-albums.html">Gallery Albums</a> </li>-->
+                                                   <li> <a href="page-gallery-2.html">Two Columns</a> </li>
+<li> <a href="page-gallery-3.html">Three Columns</a> </li>
+<li> <a href="page-gallery-4.html">Four Columns</a> </li>
+<li> <a href="page-gallery-5.html">Five Columns</a> </li>
+<li> <a href="page-gallery-6.html">Six Columns</a> </li>
+<li> <a href="page-gallery-sidebar.html">Sidebar version</a> </li>
+                                                            <li> <a href="page-gallery-wide.html">Wide version</a> </li>
+<li> <a href="page-gallery-load-more.html">Load more</a> </li>
+<li> <a href="page-gallery-infinite-scroll.html">Infinity Scroll</a> </li>
+<!--<li> <a href="page-gallery-gallery-albums.html">Gallery Albums</a> </li>-->
                                                 </ul>
                                             </li>
                                             <li class="dropdown-submenu"><span class="dropdown-menu-title-only">User pages</span>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="page-user-login.html">Login</a> </li>
-                                                    <li><a href="page-user-login-classic.html">Login - Classic</a> </li>
-                                                    <li><a href="page-user-register.html">Register</a> </li>
-                                                    <li><a href="page-user-register-classic.html">Register - Classic</a> </li>
-                                                    <li><a href="page-user-password-recovery.html">Recovery Password</a> </li>
+<li><a href="page-user-login-classic.html">Login - Classic</a> </li>
+                        <li><a href="page-user-register.html">Register</a> </li>
+                        <li><a href="page-user-register-classic.html">Register - Classic</a> </li>
+                         <li><a href="page-user-password-recovery.html">Recovery Password</a> </li>
                                                 </ul>
                                             </li>
                                             <li> <a href="page-services.html">Services</a> </li>
@@ -498,7 +526,7 @@
                                             <li> <a href="page-our-clients.html">Our clients</a> </li>
                                             <li> <a href="page-maintenance.html">Maintenance</a> </li>
                                             <li> <a href="page-404.html">404 Page</a> </li>
-                                            <li> <a href="page-404-parallax.html">404 Page - Parallax</a> </li>
+                    <li> <a href="page-404-parallax.html">404 Page - Parallax</a> </li>
                                             <li> <a href="page-500.html">500 Page</a> </li>
                                             <li> <a href="page-fullwidth.html">Fullwidth page</a> </li>
                                             <li> <a href="page-fullwidth-wide.html">Fullwidth page - Wide</a> </li>
@@ -674,8 +702,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown mega-menu-item"> <a href="#">Shop</a>
-                                        <ul class="dropdown-menu">
+                                    <li class="dropdown mega-menu-item"> <a href="#">Shop</a>                                        <ul class="dropdown-menu">
                                             <li class="mega-menu-content">
                                                 <div class="row">
                                                     <div class="col-md-2-5">
@@ -694,6 +721,11 @@
                                                     </div>
                                                     <div class="col-md-2-5">
                                                         <ul>
+
+
+
+
+
                                                             <li class="mega-menu-title">Layouts</li>
                                                             <li> <a href="shop-sidebar-left.html">Left Sidebar</a> </li>
                                                             <li> <a href="shop-sidebar-right.html">Right Sidebar</a> </li>
